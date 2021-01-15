@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+@font-face{
+    font-family: "novencetowide";
+    src: url(../asset/font/novecentowide_demibold/Fonts/Novecentosanswide-DemiBold.otf);
+}
+@font-face{
+    font-family: "pacifico";
+    src: url(../asset/font/pacifico_fonts/Pacifico-Regular.ttf);
+}
+:root{
+    --font-logo:"pacifico";
+    --font-novencento:"novencetowide";
+}
+body{
+    background-color: #fefefe;
+}
+.container{
+    width: 75%;
+    margin: auto;
+}
+.navbar-top{
+    border-bottom: 2px solid #cccccc;
+}
+.navbar-list-one{
+    display: flex;
+    margin: 20px 0px 15px 0px;
+}
+.navbar-list-one li{
+    list-style-type: none;
+}
+.navbar-list-one a{
+    text-decoration: none;
+    color:  #666262;
+}
+.navbar-list-one li:nth-of-type(2){
+    margin-left: auto;
+}
+.navbar-list__item__logo{
+    font-family: var(--font-logo);
+    font-size: 2vw;
+    color:  #666262;
+}
+.navbar-list__item a{
+    font-size: 25px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.navbar-list__item{
+    margin-top: 10px;
+}
+.navbar-list__item a:hover{
+    color: #6662627d;
+}
+.navbar-list-two{
+    display: flex;
+    margin: 20px 0px 20px  0px;
+    justify-content: space-between;
+}
+.navbar-list-two li{
+    list-style-type: none;
+}
+.navbar-list-two li:nth-of-type(9){
+    margin-left: auto;
+}
+.navbar-list-two a{
+    color:#666262;
+    text-decoration: none;
+    /* margin-left: 20px; */
+    font-family: var(--font-novencento);
+}
+.page-title{
+    /* border: 2px solid; */
+    background-image: url(../asset/image/page_title.png);
+    /* height: 100px; */
+}
+.page-title__name{
+    width: 75%;
+    margin: auto;
+}
+.page-title__name p{
+    font-size: 2.5vw;
+    font-family: var(--font-novencento);
+    padding: 20px 0px 20px 0px;
+    /* margin: auto 0px auto 0px; */
+    color: #fefefe;
+}
