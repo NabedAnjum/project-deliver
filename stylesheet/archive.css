@@ -64,13 +64,17 @@ body{
     list-style-type: none;
 }
 .navbar-list-two li:nth-of-type(9){
-    margin-left: auto;
+    margin-left: 10vw;
 }
 .navbar-list-two a{
     color:#666262;
     text-decoration: none;
     /* margin-left: 20px; */
     font-family: var(--font-novencento);
+}
+
+.fa-search{
+    color: #666262;;
 }
 .page-title{
     /* border: 2px solid; */
@@ -105,7 +109,7 @@ body{
     margin-bottom: 20px;
     color: #8f8f8f;
 }
-.post-menu h1{
+.Last-posts h1{
     font-family: var(--font-novencento);
     margin-bottom: 15px;
     color: #5f5b5b;
@@ -121,41 +125,38 @@ body{
     font-family: var(--font-novencento);
 
 }
-.aside-side{
-   width: 300px;
+#aside{
+   width: 30%;
    margin-bottom: 100px;
 }
-.aside-part-one{
+.About-theme{
     width: 350px;
 }
-.aside-part-one h1{
+.About-theme h1{
     margin-bottom: 20px;
     font-family: var(--font-novencento);
     color: #5f5b5b;
 }
-.aside-part-one p{
+.About-theme p{
     font-family: var(--font-novencento);
     color: #8f8f8f;
 }
-.aside-part-two h1{
+.Popular-posts h1{
     margin: 20px 0px 20px 0px;
     font-family: var(--font-novencento);
     color: #5f5b5b;
 }
-.aside-part-two h3{
+.Popular-posts h3{
     font-family: var(--font-novencento);
     color: #8f8f8f;
     padding-bottom: 10px;
     border-bottom: 2px solid;
 }
-.aside-part-three h1{
+.Flicker-widget h1{
     margin: 20px 0px 20px 0px;
     font-family: var(--font-novencento);
     color: #5f5b5b;
 }
-.best-image{
-    border: 2px solid;
-}
-.best-image-one{
-
+..widget-img img{ 
+display: inline;
 }
