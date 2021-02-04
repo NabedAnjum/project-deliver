@@ -64,7 +64,7 @@ body{
     list-style-type: none;
 }
 .navbar-list-two li:nth-of-type(9){
-    margin-left: auto;
+    margin-left: 15vw;
 }
 .navbar-list-two a{
     color:#666262;
