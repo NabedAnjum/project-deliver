@@ -145,12 +145,12 @@ body{
     margin: 15px 0px 15px 30px;
     font-family: var(--font-novencento);
 }
-/* .portfolio-one :hover .overlay{
+.portfolio-one:hover .overlay{
     display: block;
 }
 .portfolio-one:hover .plus-icon{
     display: block;
-} */
+}
 .pc-one{
     height: 225px;
     width: 310px;
@@ -162,20 +162,20 @@ body{
     left: 209px;
     height: 127px;
     width: 220px;
-    /* display: none; */
+    display: none;
 }
 .plus-icon{
     position: absolute;
     top: 180px;
     left: 295px;
-    /* display: none; */
+    display: none;
 }
-.pc-one:hover .overlay{
+/* .pc-one:hover .overlay{
     display: none;
 }
 .pc-one:hover .plus-icon{
     display: none;
-}
+} */
 .portfolio-two{
     width: 340px;
 }
@@ -214,11 +214,6 @@ body{
     margin-left: 35px;
     width: 300px;
 }
-
-
-
-
-
 .blank-div-two{
     background-color: #efefef;
     position: absolute;
